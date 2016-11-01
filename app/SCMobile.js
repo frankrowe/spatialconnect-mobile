@@ -38,8 +38,9 @@ const store = createStore(
 
 const renderLeftButton = () => (
   <TouchableOpacity
+    style={routerStyles.icon}
     onPress={() => Actions.refresh({key: 'drawer', open: value => !value })}>
-    <Image source={require('./img/menu.png')} style={routerStyles.icon} />
+    <Image source={require('./img/menu.png')} style={routerStyles.iconImg} />
   </TouchableOpacity>
 );
 

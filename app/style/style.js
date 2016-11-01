@@ -161,7 +161,10 @@ export const routerStyles = StyleSheet.create({
     color: 'white',
   },
   icon: {
-    left: 0,
+    height: 25,
+    width: 25,
+  },
+  iconImg: {
     tintColor: 'white',
   },
   layersIcon: {
